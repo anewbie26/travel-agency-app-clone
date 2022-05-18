@@ -5,9 +5,9 @@ import Search from "./Search";
 function Hero() {
   return (
     <div className="relative">
-      <div className="flex sm:text-blue-200 md:justify-between lg:justify-between  text-white p-7">
-        <div className="flex items-center ">
-          <img src="../assets/logo.png" alt="" className="sm:h-[60px] w-[60px]"/>
+      <div className="flex w-full lg:justify-between  text-white p-7">
+        <div className="flex items-center">
+          <img src="../assets/logo.png" alt="" className=""/>
 
           <img src="../assets/logo-text.png" alt="" />
         </div>
@@ -16,7 +16,7 @@ function Hero() {
           <h5 className="p-5">About Us</h5>
           <h5 className="p-5">Blogs</h5>
           <h5 className="p-5">Premiums</h5>
-          <button className=" border-2 font-bold rounded-xl h-14 w-36 mt-2 ">
+          <button className=" border-2 font-bold rounded-xl h-14 w-36 mt-2">
             Book Now
           </button>
         </div>
