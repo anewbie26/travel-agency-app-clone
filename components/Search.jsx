@@ -1,6 +1,6 @@
 function Search() {
   return (
-    <div className="  flex items-center justify-center absolute top-[750px] left-[75px] ">
+    <div className="  flex items-center justify-center absolute top-[750px] left-[75px] font-poppins w-[]">
       <div className="flex rounded-xl bg-white w-[75vw] h-[72px]">
         <div className="flex items-center w-[37%] border-r-2">
           <svg

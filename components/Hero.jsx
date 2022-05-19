@@ -4,7 +4,7 @@ import Search from "./Search";
 
 function Hero() {
   return (
-    <div className="relative">
+    <div className="relative font-hero">
       <div className="flex w-full lg:justify-between  text-white p-7">
         <div className="flex items-center">
           <img src="../assets/logo.png" alt="" className=""/>

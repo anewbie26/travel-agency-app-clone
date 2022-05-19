@@ -2,7 +2,7 @@ import React from "react";
 
 function Subscribe() {
   return (
-    <div className="relative my-32">
+    <div className="relative my-32 font-poppins">
     <div className="bg-[#DFD7F9] h-[407px] w-[1170px]  my-10 rounded-tl-[129px] rounded-xl relative ml-20">
         <img className="absolute top-0 right-0 opacity-20" src="/assets/circle2.png" alt="" />
       <div

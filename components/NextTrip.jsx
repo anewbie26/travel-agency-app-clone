@@ -6,10 +6,10 @@ function NextTrip() {
       "
       >
         <h4 className="font-semibold text-[18px] my-6">Easy and Fast</h4>
-        <h1 className="text-[50px] leading-[57px] font-bold">
+        <h1 className="text-[50px] leading-[57px] font-bold font-volk">
           Book Your Next Trip {<br />} In 3 Easy Steps
         </h1>
-        <div className="flex flex-col mt-16 w-1/2">
+        <div className="flex flex-col mt-16 w-[80%] font-poppins">
           <div className="flex mb-16 ">
             <img className="h-14 w-14 " src="/assets/Rectangle.png" alt="" />
             <img
@@ -34,7 +34,7 @@ function NextTrip() {
             />
             <div className="ml-10 -mt-1.5">
               <h2 className="font-bold">Make Payments</h2>
-              <p>
+              <p className="">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi
                 exercitationem sunt dolor ipsum id ducimus labore dolorem,
               </p>
@@ -58,7 +58,7 @@ function NextTrip() {
         </div>
       </div>
       <div className="relative">
-        <div className="h-80 w-80 rounded-full bg-[#59B1E6] filter blur-3xl absolute top-40 left-24 z-10"></div>
+        <div className="h-80 w-80 rounded-full bg-[#59B1E6] filter blur-3xl absolute top-48 left-24 z-10"></div>
       </div>
       <div className="w-[50vw] flex justify-center relative z-50  mt-56">
         <div className=" shadow-lg mr-56  rounded-2xl h-[400px] w-[370px] group bg-white m-auto hover:scale-105 transition-all duration-200">

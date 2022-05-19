@@ -22,14 +22,14 @@ export default function Home() {
         <img
           src="assets/Bg.png"
           alt=""
-          className="w-[900px] h-[900px] object-cover object-center -mr-24"
+          className="w-[60vw] h-[900px] object-cover object-center -mr-24"
         />
-        <img src="/assets/Boat.png" alt="" className="w-[620px] h-[900px] " />
+        <img src="/assets/Boat.png" alt="" className="w-[47vw] h-[900px] " />
       </div>
       <Hero />
       <div className="mt-12 relative">
         <h1 className="text-center text-lg font-semibold">CATEGORY</h1>
-        <h1 className="text-center text-5xl text-[#14183E] font-bold">
+        <h1 className="text-center text-5xl text-[#14183E] font-bold font-volk">
           We Offer Best Services
         </h1>
         <img src="/assets/plus.png" alt="" className="absolute top-0 right-0" />
@@ -57,7 +57,7 @@ export default function Home() {
         </div>
       </div>
       <h4 className="text-center font-semibold text-lg">Top Selling </h4>
-      <h1 className="text-center text-5xl font-bold">Top Destinations</h1>
+      <h1 className="text-center text-5xl font-bold font-volk">Top Destinations</h1>
       <div className="flex justify-evenly bg-white  my-16 relative">
         <Destinaion
           img="/assets/des1Edit.png"
@@ -121,7 +121,7 @@ export default function Home() {
         <NextTrip />
       </div>
       <Testimonial />
-      <h1 className="ml-20 text-[51px] font-bold text-[#14183E] mt-24">Trusted By Companies</h1>
+      <h1 className="ml-20 text-[51px] font-bold text-[#14183E] mt-24   font-volk">Trusted By Companies</h1>
       <Partners />
       <Subscribe />
       <Footer />
