@@ -2,8 +2,8 @@ import React from "react";
 
 function Subscribe() {
   return (
-    <div className="relative my-32 font-poppins">
-    <div className="bg-[#DFD7F9] h-[407px] w-[1170px]  my-10 rounded-tl-[129px] rounded-xl relative ml-20">
+    <div className="relative my-32 font-poppins w-[100vw]">
+    <div className="bg-[#DFD7F9] h-[407px] w-[1170px] sm:w-[90vw] sm:h-[300px]  my-10 rounded-tl-[129px] rounded-xl relative ml-20">
         <img className="absolute top-0 right-0 opacity-20" src="/assets/circle2.png" alt="" />
       <div
         className="h-[60px] w-[60px] bg-[#FF8C6C] flex items-center justify-center rounded-full absolute top-0 right-0 -mt-4 rotate-45 -mr-4
@@ -19,7 +19,7 @@ function Subscribe() {
         </svg>
       </div>
       <div className="">
-      <h1 className=" text-center leading-[54px] text-[33px] font-semibold text-[#5E6282]">
+      <h1 className=" text-center leading-[54px] text-[33px] font-semibold text-[#5E6282] sm:text-[25px]">
         Subscribe to get information, latest news and other {<br />} interesting
         offers about WindTravels
       </h1>

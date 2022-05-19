@@ -4,36 +4,54 @@ import Search from "./Search";
 
 function Hero() {
   return (
-    <div className="relative font-hero">
+    <div className="relative font-hero w-[100vw]">
       <div className="flex w-full lg:justify-between  text-white p-7">
         <div className="flex items-center">
-          <img src="../assets/logo.png" alt="" className=""/>
+          <img src="../assets/logo.png" alt="" className="" />
 
           <img src="../assets/logo-text.png" alt="" />
         </div>
-        <div className="flex text-white text-[20px] font-bold">
-          <h5 className="p-5">Home</h5>
-          <h5 className="p-5">About Us</h5>
-          <h5 className="p-5">Blogs</h5>
-          <h5 className="p-5">Premiums</h5>
-          <button className=" border-2 font-bold rounded-xl h-14 w-36 mt-2">
+        <div className="flex text-white text-[20px] font-bold lg:text-lg sm:invisible">
+          <h5 className="p-5 lg:pr-2">Home</h5>
+          <h5 className="p-5 lg:pr-2">About Us</h5>
+          <h5 className="p-5 lg:pr-2">Blogs</h5>
+          <h5 className="p-5 lg:pr-2">Premiums</h5>
+          <button className=" border-2 font-bold rounded-xl h-14 w-36 mt-2 lg:h-10 lg:w-28 lg:mt-4 ">
             Book Now
           </button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-12 w-12 mt-3 lg:invisible sm:visible sm:mt-[25px] sm:mr-[50px]"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
         </div>
       </div>
       <h3 className="text-white mx-10 mt-16 mb-4 font-medium font-[16px]">
         MOUNTAINS | PLAINS | BEACHES
       </h3>
-      <h1 className="text-white text-[47px] mx-10 font-bold leading-[57px]">
+      <h1 className="text-white text-[47px] mx-10 font-bold leading-[57px] lg:text-[38px]">
         Spend your vacation <br />
         with our activities
-        <img src="/assets/plane.png" alt="" className="absolute top-60 left-[420px]"/>
+        <img
+          src="/assets/plane.png"
+          alt=""
+          className="absolute top-60 left-[420px] lg:left-[370px] sm:top-64 sm:left-[460px]"
+        />
       </h1>
       <div className="flex text-white w-1/2 justify-between mx-10 mt-10">
-        <h1 className="text-[24px] font-[600]">MOST POPULAR</h1>
+        <h1 className="text-[24px] font-[600] lg:text-[20px]">MOST POPULAR</h1>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-8 w-8 mr-16"
+          className="h-8 w-8 mr-16 lg:-mr-16"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -113,7 +131,7 @@ function Hero() {
         />
       </div>
       <div className="flex justify-center">
-        <div className="h-[144px] w-[95%] rounded-xl bg-white opacity-40 relative"></div>
+        <div className="h-[144px] w-[95%] rounded-xl bg-white opacity-40 relative lg:h-[120px] sm:h-[120px] sm:mr-[22px]"></div>
       </div>
       <Search />
     </div>

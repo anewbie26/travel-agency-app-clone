@@ -1,7 +1,7 @@
 function Category({ icon, title, desc }) {
   return (
-    <div className="relative group">
-      <div className="group hover:shadow-xl hover:scale-105 transition-all duration-200 relative bg-white rounded-3xl h-[314px] w-[267px] hover:z-50">
+    <div className="relative group sm:my-6 sm:mx- ">
+      <div className="group hover:shadow-xl hover:scale-105 transition-all duration-200 relative bg-white rounded-3xl h-[314px] w-[267px] hover:z-50 flex flex-wrap">
         <div className="flex flex-col h-64 w-60 rounded-xl items-center justify-center">
           <div className="my-6 flex items-center justify-center">
             <img src={icon} alt="" className="h-[75px] w-[88px] " />

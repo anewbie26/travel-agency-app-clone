@@ -56,14 +56,14 @@ function Testimonial() {
 
   return (
     <div className="flex items-center text-[#5E6282] my-16 ml-10">
-      <div className="flex flex-col w-[37%] h-60 m-10">
-        <h1 className="font-semibold text-[18px]">TESTIMONIAL</h1>
-        <h1 className="text-[50px] font-bold mt-4 mb-12 font-volk ">
+      <div className="flex flex-col w-[37%] h-60 m-10 sm:m-0">
+        <h1 className="font-semibold text-[18px] sm:mb-4">TESTIMONIAL</h1>
+        <h1 className="text-[50px] font-bold mt-4 mb-12 font-volk sm:text-[35px]">
           What Poeple Say {<br />}About Us.
         </h1>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
+          class="h-6 w-6 sm:h-20 sm:w-20"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -80,7 +80,7 @@ function Testimonial() {
       <div>
         {/* card div */}
         <div className="flex items-center">
-          <div className="mt-20 rounded drop-shadow-xl h-[245px] w-[540px]  bg-white relative hover:scale-105 transition-all duration-200">
+          <div className="mt-20 rounded drop-shadow-xl h-[245px] w-[540px] sm:h[200px] sm:w-[420px] bg-white relative hover:scale-105 transition-all duration-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="absolute -top-10 -left-8 h-16 w-16  text-blue-200"

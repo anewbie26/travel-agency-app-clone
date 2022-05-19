@@ -22,18 +22,18 @@ export default function Home() {
         <img
           src="assets/Bg.png"
           alt=""
-          className="w-[60vw] h-[900px] object-cover object-center -mr-24"
+          className="w-[60vw] h-[900px] object-cover object-center -mr-24 lg:w-[60vw]"
         />
-        <img src="/assets/Boat.png" alt="" className="w-[47vw] h-[900px] " />
+        <img src="/assets/Boat.png" alt="" className="w-[47vw] h-[900px] lg:w-[47vw]" />
       </div>
       <Hero />
       <div className="mt-12 relative">
         <h1 className="text-center text-lg font-semibold">CATEGORY</h1>
-        <h1 className="text-center text-5xl text-[#14183E] font-bold font-volk">
+        <h1 className="text-center text-5xl text-[#14183E] font-bold font-volk sm:text-[35px]">
           We Offer Best Services
         </h1>
-        <img src="/assets/plus.png" alt="" className="absolute top-0 right-0" />
-        <div className="flex my-[100px] justify-evenly items-center">
+        <img src="/assets/plus.png" alt="" className="absolute top-0 right-0 sm:top-[-10px] sm:right-[25px]" />
+        <div className="flex my-[100px] justify-between items-center flex-wrap">
           <Category
             icon="/assets/antina.png"
             title="Calculated Weather"
@@ -57,7 +57,7 @@ export default function Home() {
         </div>
       </div>
       <h4 className="text-center font-semibold text-lg">Top Selling </h4>
-      <h1 className="text-center text-5xl font-bold font-volk">Top Destinations</h1>
+      <h1 className="text-center text-5xl font-bold font-volk sm:text-[35px]">Top Destinations</h1>
       <div className="flex justify-evenly bg-white  my-16 relative">
         <Destinaion
           img="/assets/des1Edit.png"
@@ -121,7 +121,7 @@ export default function Home() {
         <NextTrip />
       </div>
       <Testimonial />
-      <h1 className="ml-20 text-[51px] font-bold text-[#14183E] mt-24   font-volk">Trusted By Companies</h1>
+      <h1 className="ml-20 text-[51px] font-bold text-[#14183E] mt-24  sm:text-[35px] sm:ml-10 font-volk">Trusted By Companies</h1>
       <Partners />
       <Subscribe />
       <Footer />
