@@ -36,7 +36,7 @@ function NextTrip() {
               <h2 className="font-bold">Make Payments</h2>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                exercitationem sunt dolor ipsum id ducimus labore dolorem,{" "}
+                exercitationem sunt dolor ipsum id ducimus labore dolorem,
               </p>
             </div>
           </div>
@@ -58,9 +58,9 @@ function NextTrip() {
         </div>
       </div>
       <div className="relative">
-        <div className="h-80 w-80 rounded-full bg-[#59B1E6] filter blur-3xl absolute top-28 left-24 z-10"></div>
+        <div className="h-80 w-80 rounded-full bg-[#59B1E6] filter blur-3xl absolute top-40 left-24 z-10"></div>
       </div>
-      <div className="w-[50vw] flex justify-center relative z-50 ">
+      <div className="w-[50vw] flex justify-center relative z-50  mt-56">
         <div className=" shadow-lg mr-56  rounded-2xl h-[400px] w-[370px] group bg-white m-auto hover:scale-105 transition-all duration-200">
           <img
             className="m-auto pt-6"

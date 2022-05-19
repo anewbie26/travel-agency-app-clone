@@ -121,7 +121,7 @@ export default function Home() {
         <NextTrip />
       </div>
       <Testimonial />
-      <h1 className="ml-10 text-2xl font-bold">Trusted By Companies</h1>
+      <h1 className="ml-20 text-[51px] font-bold text-[#14183E] mt-24">Trusted By Companies</h1>
       <Partners />
       <Subscribe />
       <Footer />

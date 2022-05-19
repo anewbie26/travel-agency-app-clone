@@ -2,34 +2,37 @@ import React from "react";
 
 function Subscribe() {
   return (
-    <div className="bg-purple-200 mx-10 my-10">
-        <img className="ml-96" src="/assets/circle2.png" alt="" />
+    <div className="relative my-32">
+    <div className="bg-[#DFD7F9] h-[407px] w-[1170px]  my-10 rounded-tl-[129px] rounded-xl relative ml-20">
+        <img className="absolute top-0 right-0 opacity-20" src="/assets/circle2.png" alt="" />
       <div
-        className="h-8 w-8 bg-orange-500 flex items-center justify-center rounded-full
+        className="h-[60px] w-[60px] bg-[#FF8C6C] flex items-center justify-center rounded-full absolute top-0 right-0 -mt-4 rotate-45 -mr-4
       "
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="text-white h-5 w-5"
+          class="text-white h-[45px] w-[40px] mb-2"
           viewBox="0 0 20 20"
           fill="currentColor"
         >
           <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" />
         </svg>
       </div>
-      <h1>
+      <div className="">
+      <h1 className=" text-center leading-[54px] text-[33px] font-semibold text-[#5E6282]">
         Subscribe to get information, latest news and other {<br />} interesting
         offers about WindTravels
       </h1>
-      <div className="flex justify-around ">
-        <div className="flex bg-white w-72 items-center rounded">
+      </div>
+      <div className="flex justify-center items-center mt-36">
+        <div className="flex bg-white relative z-50 w-[421px] h-[68px] items-center rounded-md">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 ml-6 mr-2"
+            class="h-6 w-6 ml-6 mr-2 text-slate-500 "
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            stroke-width="2"
+            stroke-width="1"
           >
             <path
               stroke-linecap="round"
@@ -39,9 +42,13 @@ function Subscribe() {
           </svg>
           <input className="bg-transparent outline-none p-2" type="email" placeholder="Your email"/>
         </div>
-        <button className="py-2 px-4 bg-orange-500 rounded">Subscribe</button>
+        <button className="py-[18px] font-semibold px-[60px] bg-[#FF8C6C] rounded-md ml-14 text-white text-2xl">Subscribe</button>
       </div>
-      <img className="absolute" src="/assets/circle1.png" alt="" />
+      <div>
+      <img className="absolute bottom-0 left-6 opacity-20" src="/assets/circle1.png" alt="" />
+      </div>
+    </div>
+    <img src="/assets/decoreB.png" alt="" className="absolute -bottom-20 right-20" />
     </div>
   );
 }
