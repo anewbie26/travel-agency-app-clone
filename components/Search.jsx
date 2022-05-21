@@ -1,6 +1,6 @@
 function Search() {
   return (
-    <div className="  flex items-center justify-center absolute top-[750px] left-[75px] font-poppins sm:top-[775px] sm:left-[43px] xl:top-[705px] xl:left-[69px] lg:top-[730px] lg:left-[54px] md:flex-col md:top-[715px] md:left-[70px] lg:flex-row xl:flex-row 2xl:flex-row">
+    <div className="  flex items-center justify-center absolute top-[750px] left-[75px] font-poppins sm:top-[775px] sm:left-[43px] xl:top-[715px] xl:left-[75px] lg:top-[730px] lg:left-[54px] md:flex-col md:top-[715px] md:left-[70px] lg:flex-row xl:flex-row 2xl:flex-row">
       <div className="flex rounded-xl bg-white w-[75vw] h-[72px] sm:w-[70vw] sm:h-[60px] xl:w-[75vw] xl:h-[68px] md:w-[80vw]">
         <div className="flex items-center w-[37%] border-r-2">
           <svg

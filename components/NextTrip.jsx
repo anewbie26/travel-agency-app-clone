@@ -1,6 +1,6 @@
 import { Fade,} from "react-reveal";
 import Pulse from 'react-reveal/Pulse';
-import Tada from 'react-reveal/Tada';
+import Flash from 'react-reveal/Flash';
 
 function NextTrip() {
   return (
@@ -69,7 +69,8 @@ function NextTrip() {
         <div className="h-80 w-80 rounded-full bg-[#59B1E6] filter blur-3xl absolute top-48 left-24 z-10 sm:h-56 sm:w-56 sm:top-64"></div>
       </div>
       <div className="w-[50vw] flex justify-center relative z-50  mt-56 sm:w-[40vw] xl:w-[50vw] lg:mr-14">
-      <Tada>
+      <Flash count={0.5}>
+      
         <div className=" shadow-lg mr-56 sm:mr-20 rounded-2xl h-[400px] w-[370px] sm:h-[300px] sm:w-[330px] group bg-white m-auto hover:scale-105 transition-all duration-200 xl:mr-28">
           <img
             className="m-auto pt-6 sm:pt-0 sm:rounded-t-2xl lg:p-2"
@@ -114,7 +115,7 @@ function NextTrip() {
             </Pulse>
           </div>
         </div>
-        </Tada>
+        </Flash>
       </div>
     </div>
   );

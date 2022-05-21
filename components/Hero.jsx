@@ -1,7 +1,7 @@
 import React from "react";
 import { Reveal, Slide } from "react-reveal";
 import Fade from "react-reveal/Fade";
-import HeadShake from "react-reveal/HeadShake";
+
 import Flash from "react-reveal/Flash";
 import Card from "./Card";
 import Search from "./Search";
@@ -48,11 +48,11 @@ function Hero() {
         </div>
       </div>
 
-      <h3 classNameName="text-white mx-10 mt-16 mb-4 font-medium font-[16px] xl:font-medium">
+      {/* <h3 classNameName=" mx-10 mt-16 mb-4 font-medium font-[16px] xl:font-medium xl:-mb-10">
         MOUNTAINS | PLAINS | BEACHES
-      </h3>
+      </h3> */}
       <Flash>
-        <h1 className="text-white text-[47px] mx-10 font-bold leading-[57px] lg:text-[34px] xl:font-bold xl:text-[43px]  md:mr-0 ">
+        <h1 className="text-white text-[47px] mx-10 font-bold leading-[57px] lg:text-[34px] xl:font-bold xl:text-[43px]  md:mr-0 xl:mt-28">
           Spend your vacation <br />
           with our activities
         </h1>
@@ -83,8 +83,9 @@ function Hero() {
           </svg>
        
       </div>
-      <HeadShake>
+      
         <div className="flex mx-2 md:">
+        <Flash count={0.5}>
           <Card
             img="/assets/card1.jpg"
             title="Trip To Palawan"
@@ -106,6 +107,8 @@ function Hero() {
             }
             people="31 people going"
           />
+          </Flash>
+          <Flash delay={80} count={0.5}>
           <Card
             img="/assets/card2.jpg"
             title="Trip To Baguio"
@@ -127,6 +130,8 @@ function Hero() {
             }
             people="27 people going"
           />
+            </Flash>
+            <Flash count={0.5} delay={160}>
           <Card
             img="/assets/card1.jpg"
             title="Trip To Baracay"
@@ -148,8 +153,9 @@ function Hero() {
             }
             people="20 people going"
           />
+          </Flash>
         </div>
-      </HeadShake>
+     
       <div className="flex justify-center md:justify-start md:ml-10">
         <div className="h-[144px] w-[95%] rounded-xl bg-white opacity-40 relative lg:h-[120px] sm:h-[120px] sm:mr-[22px] md:h-[180px] md:w-[90%] xl:w-[95%]"></div>
       </div>
