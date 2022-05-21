@@ -1,7 +1,7 @@
 function Search() {
   return (
-    <div className="  flex items-center justify-center absolute top-[750px] left-[75px] font-poppins lg:left-[47px] lg:top-[722px] sm:top-[775px] sm:left-[43px]">
-      <div className="flex rounded-xl bg-white w-[75vw] h-[72px] sm:w-[70vw] sm:h-[60px]">
+    <div className="  flex items-center justify-center absolute top-[750px] left-[75px] font-poppins sm:top-[775px] sm:left-[43px] xl:top-[670px] xl:left-[69px] lg:top-[730px] lg:left-[54px] md:flex-col md:top-[715px] md:left-[70px] lg:flex-row xl:flex-row 2xl:flex-row">
+      <div className="flex rounded-xl bg-white w-[75vw] h-[72px] sm:w-[70vw] sm:h-[60px] xl:w-[75vw] xl:h-[68px] md:w-[80vw]">
         <div className="flex items-center w-[37%] border-r-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -18,8 +18,8 @@ function Search() {
             />
           </svg>
           <div className="ml-2 sm:ml-0">
-            <h3 className="text-sm font-normal sm:text-[10px]">Accomodation</h3>
-            <h1 className="text-base font-bold sm:text-[12px]">Aklam,Bacaracy</h1>
+            <h3 className="text-sm font-normal sm:text-[10px] xl:text-sm md:text-[12px]">Accomodation</h3>
+            <h1 className="text-base font-bold sm:text-[12px] xl:text-base md:text-[13px]">Aklam,Bacaracy</h1>
           </div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -52,8 +52,8 @@ function Search() {
             />
           </svg>
           <div className="">
-            <h3 className="text-sm font-normal sm:text-[10px]">Check-In</h3>
-            <h1 className="text-base font-bold sm:text-[12px]">04.12.2021</h1>
+            <h3 className="text-sm font-normal sm:text-[10px]  xl:text-sm md:text-[12px]">Check-In</h3>
+            <h1 className="text-base font-bold sm:text-[12px] xl:text-base md:text-[13px]">04.12.2021</h1>
           </div>
          
         </div>
@@ -73,8 +73,8 @@ function Search() {
             />
           </svg>
           <div className="">
-            <h3 className="text-sm font-normal sm:text-[10px]">Check-Out</h3>
-            <h1 className="text-base font-bold sm:text-[12px]">05.12.2021</h1>
+            <h3 className="text-sm font-normal sm:text-[10px] xl:text-sm md:text-[12px]">Check-Out</h3>
+            <h1 className="text-base font-bold sm:text-[12px] xl:text-base md:text-[13px]">05.12.2021</h1>
           </div>
           
         </div>
@@ -94,8 +94,8 @@ function Search() {
             />
           </svg>
           <div >
-            <h3 className="text-sm font-normal sm:text-[10px]">Guests</h3>
-            <h1 className="text-base font-bold sm:text-[12px]">2 sdults</h1>
+            <h3 className="text-sm font-normal sm:text-[10px] xl:text-sm md:text-[12px]">Guests</h3>
+            <h1 className="text-base font-bold sm:text-[12px] xl:text-base md:text-[13px]">2 sdults</h1>
           </div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -113,7 +113,7 @@ function Search() {
           </svg>
         </div>
       </div>
-      <button className="border ml-6 bg-[#E7AC72] px-10 py-2  rounded-xl h-[72px] w-[175px] text-lg font-bold text-white sm:h-[60px] sm:w-[160px]">
+      <button className="border ml-6 bg-[#E7AC72] px-10 py-2  rounded-xl h-[72px] w-[175px] text-lg font-bold text-white sm:h-[60px] sm:w-[160px] xl:h-[66px] lg:w-[150px] md:h-[50px] md:mt-4 xl:mt-0">
         Search
       </button>
     </div>

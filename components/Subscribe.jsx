@@ -3,7 +3,7 @@ import React from "react";
 function Subscribe() {
   return (
     <div className="relative my-32 font-poppins w-[100vw]">
-    <div className="bg-[#DFD7F9] h-[407px] w-[1170px] sm:w-[90vw] sm:h-[300px]  my-10 rounded-tl-[129px] rounded-xl relative ml-20">
+    <div className="bg-[#DFD7F9] h-[407px] w-[90%] sm:w-[90vw] sm:h-[300px]  my-10 rounded-tl-[129px] rounded-xl relative ml-20 lg:ml-10 md:ml-10">
         <img className="absolute top-0 right-0 opacity-20" src="/assets/circle2.png" alt="" />
       <div
         className="h-[60px] w-[60px] bg-[#FF8C6C] flex items-center justify-center rounded-full absolute top-0 right-0 -mt-4 rotate-45 -mr-4
@@ -24,8 +24,8 @@ function Subscribe() {
         offers about WindTravels
       </h1>
       </div>
-      <div className="flex justify-center items-center mt-36">
-        <div className="flex bg-white relative z-50 w-[421px] h-[68px] items-center rounded-md">
+      <div className="flex justify-center items-center mt-36 xl:mt-20 lg:mt-10 md:mt-14">
+        <div className="flex bg-white relative z-50 w-[421px] h-[68px] items-center rounded-md lg:w-[380px] lg:h-[58px] md:w-[380px] md:h-[52px]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-6 w-6 ml-6 mr-2 text-slate-500 "
@@ -42,13 +42,13 @@ function Subscribe() {
           </svg>
           <input className="bg-transparent outline-none p-2" type="email" placeholder="Your email"/>
         </div>
-        <button className="py-[18px] font-semibold px-[60px] bg-[#FF8C6C] rounded-md ml-14 text-white text-2xl">Subscribe</button>
+        <button className="py-[18px] font-semibold px-[60px] bg-[#FF8C6C] rounded-md ml-14 text-white text-2xl xl:px-[45px] lg:px-[30px] lg:py-[12px] lg:text-[20px] md:py-[9px] md:px-[25px]">Subscribe</button>
       </div>
       <div>
       <img className="absolute bottom-0 left-6 opacity-20" src="/assets/circle1.png" alt="" />
       </div>
     </div>
-    <img src="/assets/decoreB.png" alt="" className="absolute -bottom-20 right-20" />
+    <img src="/assets/decoreB.png" alt="" className="absolute -bottom-20 right-20 xl:-bottom-40 xl:right-12 lg:-bottom-38 lg:right-1 md:-bottom-[50px] md:w-[100px] md:right-1" />
     </div>
   );
 }
