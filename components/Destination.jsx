@@ -1,5 +1,6 @@
 function Destinaion({ img, title, svg, days, price }) {
   return (
+    
     <div className="rounded-3xl shadow-lg h-[457px] w-[314px] relative z-50 bg-white hover:scale-105 transition-all duration-200 sm:h-[357px] sm:w-[250px] xl:h-[457px] xl:w-[314px]">
       <div className="">
         <img

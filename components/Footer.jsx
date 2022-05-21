@@ -2,7 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="flex mb-10 justify-center w-[100vw] lg:mt-56 ">
+    
+    <div className="flex mb-10 justify-center w-[100vw] lg:mt-56 xl:mt-40 ">
       <div className=" w-[75%] flex justify-between items-center md:w-[90%]">
         <div className="w-60 text-left ">
           <div className="flex items-center -ml-4 ">

@@ -1,3 +1,7 @@
+import { Fade,} from "react-reveal";
+import Pulse from 'react-reveal/Pulse';
+import Tada from 'react-reveal/Tada';
+
 function NextTrip() {
   return (
     <div className="flex text-[#5E6282] md:w-[95vw]">
@@ -6,9 +10,12 @@ function NextTrip() {
       "
       >
         <h4 className="font-semibold text-[18px] my-6">Easy and Fast</h4>
+        <Pulse>
         <h1 className="text-[50px] leading-[57px] font-bold font-volk sm:text-[35px]">
           Book Your Next Trip {<br />} In 3 Easy Steps
         </h1>
+        </Pulse>
+        <Fade bottom>
         <div className="flex flex-col mt-16 w-[80%] font-poppins ">
           <div className="flex mb-16 ">
             <img className="h-14 w-14 " src="/assets/Rectangle.png" alt="" />
@@ -56,11 +63,13 @@ function NextTrip() {
             </div>
           </div>
         </div>
+        </Fade>
       </div>
       <div className="relative">
         <div className="h-80 w-80 rounded-full bg-[#59B1E6] filter blur-3xl absolute top-48 left-24 z-10 sm:h-56 sm:w-56 sm:top-64"></div>
       </div>
       <div className="w-[50vw] flex justify-center relative z-50  mt-56 sm:w-[40vw] xl:w-[50vw] lg:mr-14">
+      <Tada>
         <div className=" shadow-lg mr-56 sm:mr-20 rounded-2xl h-[400px] w-[370px] sm:h-[300px] sm:w-[330px] group bg-white m-auto hover:scale-105 transition-all duration-200 xl:mr-28">
           <img
             className="m-auto pt-6 sm:pt-0 sm:rounded-t-2xl lg:p-2"
@@ -81,6 +90,7 @@ function NextTrip() {
               <p className="sm:text-xs">24 people going</p>
               <img className="ml-32 sm:ml-20 xl:ml-32 lg:ml-32" src="/assets/heart.png" alt="" />
             </div>
+            <Pulse count={3}>
             <div className="hidden group-hover:block hover:scale-105 transition-all duration-200">
               <div className=" absolute bottom-8 left-52 bg-white h-[130px] w-[263px] flex rounded-2xl shadow-xl sm:h-[100px] sm:w-[220px] sm:left-48">
                 <div>
@@ -101,8 +111,10 @@ function NextTrip() {
                 </div>
               </div>
             </div>
+            </Pulse>
           </div>
         </div>
+        </Tada>
       </div>
     </div>
   );
