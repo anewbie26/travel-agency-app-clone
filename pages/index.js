@@ -37,7 +37,7 @@ export default function Home() {
       <Hero />
       <div className="mt-12 relative">
   
-        <h1 className="text-center text-lg font-semibold xl:mt-28 xl:mb-5 lg:mt-24 lg:mb-4">CATEGORY</h1>
+        <h1 className="text-center text-lg font-semibold xl:mt-28 xl:mb-5 lg:mt-24 lg:mb-4">CATEGORIES</h1>
 <RubberBand>
         <h1 className="text-center text-5xl text-[#14183E] font-bold font-volk sm:text-[35px]">
           We Offer Best Services
